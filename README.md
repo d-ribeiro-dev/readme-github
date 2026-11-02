@@ -23,4 +23,11 @@ desenvolvimento web, e ia criando projetos para transformar teoria em prática.
 
 
 <!-- CALENDARIO-VIVO:INICIO -->
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/d-ribeiro-dev/calendario-vivo-github/main/banners/finados/finados.png" alt="Banner de Dia de Finados" width="100%">
+
+</div>
+
 <!-- CALENDARIO-VIVO:FIM -->

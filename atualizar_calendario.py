@@ -109,15 +109,16 @@ def atualizar_readme(caminho_readme=None, data_teste=None):
     if celebracao:
         url_imagem = f"{REPOSITORIO}/{celebracao['imagem']}"
 
-        # Se a imagem nao estiver acessivel, interrompe antes de escrever.
+    # Se a imagem nao estiver acessivel, interrompe antes de escrever.
         verificar_imagem(url_imagem)
 
         bloco = (
-            "\n\n<div align=\"center\">\n\n"
+            f"\n\n## 🎉 Especial de {celebracao['nome']}\n\n"
+            "<div align=\"center\">\n\n"
             f'<img src="{url_imagem}" '
             f'alt="Banner de {celebracao["nome"]}" width="100%">\n\n'
             "</div>\n\n"
-        )
+       )
 
     # Preserva todo o conteudo fora da area automatica.
     novo_conteudo = (

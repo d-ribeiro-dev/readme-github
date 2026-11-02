@@ -22,5 +22,4 @@ desenvolvimento web, e ia criando projetos para transformar teoria em prática.
 ## Contato
 
 
-<!-- CALENDARIO-VIVO:INICIO -->
-<!-- CALENDARIO-VIVO:FIM -->
+<!-- CALENDARIO-VIVO:INICIO --><!-- CALENDARIO-VIVO:FIM -->

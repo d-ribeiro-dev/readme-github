@@ -39,6 +39,18 @@ jobs:
       - name: Atualizar README do perfil
         run: cp README.md perfil/README.md
 
+      - name: Diagnosticar repositório do perfil
+        run: |
+          echo "=== PASTA DO PERFIL ==="
+          pwd
+          git -C perfil rev-parse --show-toplevel
+
+          echo "=== REMOTE DO PERFIL ==="
+          git -C perfil remote -v
+
+          echo "=== REMOTE DA AUTOMACAO ==="
+          git remote -v
+
       - name: Salvar alterações no perfil
         working-directory: perfil
         run: |
@@ -53,3 +65,4 @@ jobs:
           else
             echo "Nenhuma alteração no README."
           fi
+
